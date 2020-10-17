@@ -6,16 +6,16 @@ I did it because I did not find anything similar on the web, I only found 2 file
 
 I hope you find it as useful as it was for me.
 
-#clone
+# clone
 git clone https://github.com/rbb-soft/multiple-hex-dump-compare
 
-#add dependencies
+# add dependencies
 npm install
 
-#test
+# test
 
 npm test
 
-#build
+# build
 
 npm run dist
