@@ -1,0 +1,23 @@
+{
+  "name": "multiple-hex-dump-compare",
+  "version": "0.0.1",
+  "description": "This app compare multiple bin files and show diferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbb-soft/multiple-hex-dump-compare.git"
+  },
+  "author": "Richard Barolin RBB-Soft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbb-soft/multiple-hex-dump-compare/issues"
+  },
+  "homepage": "https://github.com/rbb-soft/multiple-hex-dump-compare#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "electron": "^10.1.3"
+  }
+}

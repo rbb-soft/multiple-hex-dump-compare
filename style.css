@@ -1,0 +1,15 @@
+th{
+    cursor: help;
+    padding: 2px;
+}
+.col-md-4{
+    padding: 0px;
+}
+.col-md-12{
+    padding: 0px;
+}
+
+.buffer{
+    margin-right: 5px;
+    margin-top: 5px;
+}
