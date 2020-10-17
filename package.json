@@ -4,7 +4,8 @@
   "description": "This app compare multiple bin files and show diferences",
   "main": "index.js",
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
+    "dist" : "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,30 @@
   },
   "homepage": "https://github.com/rbb-soft/multiple-hex-dump-compare#readme",
   "dependencies": {
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.5.3"
+    
+  },
+  "devDependencies": {
+    "electron-builder": "^22.9.1",
     "electron": "^10.1.3"
+  },
+  "build": {
+    "appId": "multidumpcompare",
+    "productName": "multiple-hex-dump-compare",
+    "directories":{
+      "output":"build"
+    },
+    "win": {
+        "asar": true,
+        "target": "nsis",
+        "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "build/icon.ico",
+      "installerHeaderIcon": "build/icon.ico",
+      "deleteAppDataOnUninstall": true
+    
+    
+    }
   }
 }
