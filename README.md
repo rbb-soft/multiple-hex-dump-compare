@@ -7,7 +7,7 @@ I did it because I did not find anything similar on the web, I only found 2 file
 I hope you find it as useful as it was for me.
 
 # clone
-   git clone https://github.com/rbb-soft/multiple-hex-dump-compare
+``` git clone https://github.com/rbb-soft/multiple-hex-dump-compare
 
 # add dependencies
 npm install
