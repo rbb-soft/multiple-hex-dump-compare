@@ -8,7 +8,7 @@ I hope you find it as useful as it was for me.
 
 # clone
 ``` git clone https://github.com/rbb-soft/multiple-hex-dump-compare
-
+```
 # add dependencies
 npm install
 
